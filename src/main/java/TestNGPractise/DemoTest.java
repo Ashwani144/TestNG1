@@ -14,4 +14,9 @@ public class DemoTest {
 		System.out.println("sample");
 	}
 	
+	@Test
+	public void dummy(){
+		System.out.println("dummy");
+	}
+	
 }
