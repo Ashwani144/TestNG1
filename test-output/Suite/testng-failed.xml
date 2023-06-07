@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="edge"/>
+  <test thread-count="5" name="ChromeTest">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestNGPractise.CrossBrowserTest"/>
+    </classes>
+  </test> <!-- ChromeTest -->
+  <test thread-count="5" name="FireFoxTest">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestNGPractise.CrossBrowserTest"/>
+    </classes>
+  </test> <!-- FireFoxTest -->
+  <test thread-count="5" name="EdgeTest">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="TestNGPractise.CrossBrowserTest"/>
+    </classes>
+  </test> <!-- EdgeTest -->
+</suite> <!-- Failed suite [Suite] -->
